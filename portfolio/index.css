@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #26282d;
+    color: whitesmoke;
+  
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #26282d;
+}
+
+nav{
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200vw;
+    margin: 0 auto;
+}
+.logo h1{
+    font-size: 1.8rem;
+    padding-left: 3rem;
+}
+.menu ul{
+    display: grid;
+   grid-template-columns: repeat(5,1fr);
+   column-gap: 2rem;
+    list-style: none;
+    font-size: 1.3rem;
+    padding-right: 3rem;
+}
+.menu ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+    color: #F7934C;
+    font-weight: bold;
+}
+
+.main{
+    max-width: 100%;
+}
+
+
+.introduction {
+    display: grid;
+    margin: 10px 60px 60px 60px;
+    
+}
+
+.intro-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+   margin-top: 2rem
+}
+
+.first-intro{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 30px;
+    align-items: start;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-left: 3rem;
+}
+.first-intro div{
+    width: 100%;
+}
+.first-intro .welcome{
+    font-size: 1.5rem;
+}
+.first-intro .name{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.first-intro .about-intro{
+    font-size: 1.6rem;
+}
+.first-intro .about-intro span{
+    color: #F7934C;
+    font-family: cursive;
+}
+.social{
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+.social a{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+.social .insta{
+    background: linear-gradient(#6228d7,#ee2a7b,#f9ce34);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social .twit{
+    background: linear-gradient(#1DA1F2,#0d90e0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social .git{
+    background: linear-gradient(black,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social .linked{
+    background: linear-gradient(#1DA1F2,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.first-intro button{
+    width: 160px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #F7934C;
+   border: 2px solid #F7934C;
+   border-radius: 20px;
+    padding: 10px 0 10px 0;
+   background: transparent;
+   letter-spacing: 2px;
+  box-shadow: 2px 3px 3px hsla(0, 1%, 45%, 0.832)
+
+}
+
+.profile-photo{
+    width: 100%;
+    height: auto;
+}
+.profile-photo .image-self{
+    width: 100%;
+    height: 100%;
+}
+.profile-photo .image-self img{
+    width: 100%;
+    height: 100%;
+}
+.about{
+    background-color:#2e3036;
+}
+.about-head{
+    font-family: cursive;
+    color: #F7934C;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 3rem;
+}
+.about-me{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    
+}
+.about-photo{
+    width: 100%;
+    height: 100%;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+}
+.about-self{
+    width: 60%;
+} 
+.about-self img{
+    width: 100%;
+    margin-top: -3rem;
+}
+.about-develop {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: start;
+    justify-items: start;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.about-develop h1{
+    font-family: cursive;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.about-develop div {
+    width: 60%;
+}
+.about-develop p{
+    font-size: 1.2rem;
+    width: 95%;
+}
+.about-develop button{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #F7934C;
+   border: 2px solid #F7934C;
+   border-radius: 20px;
+   padding:10px 20px;
+   background: transparent;
+   letter-spacing: 2px;
+  box-shadow: 2px 3px 3px hsla(0, 1%, 45%, 0.832);
+  margin-bottom: 30px;
+}
+.services{
+    background-color:#26282d;   
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+.first-service{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+ .services .h1{
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #F7934C;
+
+}
+.services .ser-con{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+}
+.content-ser{
+    display: grid;
+    row-gap: 10px;
+}
+.available-service{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.available-service  div img{
+    height: 100px;
+    width: 100px;
+}
+.available-service div{
+    border: 1px solid rgba(35, 35, 35, 0.765);
+    padding: 20px;
+    width: 200px;
+    background-color:#2e3036;
+    display: flex;
+    gap: 2f0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.available-service div p{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    width: 100px;
+}
+.services .button-service button{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #F7934C;
+   border: 2px solid #F7934C;
+   border-radius: 20px;
+   padding:10px 20px;
+   background: transparent;
+   letter-spacing: 2px;
+  box-shadow: 2px 3px 3px hsla(0, 1%, 45%, 0.832);
+  margin-bottom: 30px;
+}
+.portfolio{
+    display: grid;
+    row-gap: 40px;
+    background-color: #2e3036;
+    padding-top: 3rem;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.port-folio{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding:2%;
+}
+ .port-head h1{
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #F7934C;
+
+}
+.port-folio .colllection{
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+.myports{
+    display: grid;
+    row-gap: 5%;
+}
+.port-img{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 0  10%;
+}
+.port-img div{
+    width: 75%;
+    height: 75%;
+}
+.port-img div img{
+    width: 100%;
+    height: 100%;
+}
+.colored-hr{
+    margin: auto;
+    width: 20%;
+    border: 2px solid #F7934C;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+     height: 480px; 
+}
+.contactus h2{
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #F7934C;
+}
+.sub-foot{
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+.con-form i{
+    color: #F7934C;
+    font-size: 1.7rem;
+    padding: 0 20px;
+}
+.con-form {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap:20%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+
+}
+.con-form p{
+    background-color: #2e3036;
+    width: 100%;
+    padding:10px;
+    border-radius: 50px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width:1200px)
+{
+    .logo h1{
+        font-size: 1.6rem;
+    }
+    .menu ul{
+        font-size: 1.1rem;
+    }
+    .first-intro .name{
+        font-size: 2rem;
+    } 
+    .first-intro .about-intro{
+        font-size: 1.4rem;
+    }
+    .first-intro .sub-info{
+        font-size: 0.9rem;
+    }
+    .social{
+        font-size: 1rem;
+    }
+
+    .about-develop h1{
+        font-size: 1.6rem;
+        color: whitesmoke;
+        letter-spacing: 2px;
+    }
+    .about-develop p{
+        font-size: 1rem;
+    }
+    .about-self img{
+        margin-top: -3rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:900px)
+{   
+    nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .logo h1{
+        font-size: 1.5rem;
+    }
+
+    .menu ul{
+        column-gap: 1rem;
+        font-size: 1rem;
+    }
+    .intro-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-develop h1{
+        padding-top: 2rem;
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+    }
+    .about-develop p{
+        font-size: 0.9rem;
+    }
+    .first-service .h1,
+    .port-head,.foot-con{
+        font-size: 0.8rem;
+    }
+    .dev,.ser-con p,.colllection p,.sub-foot p{
+        font-size: 1.8rem;
+    }
+    .about-develop button,
+    .services .button-service button{
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (max-width:600px)
+{   
+        nav{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+        }
+        .logo h1{
+            text-align: center;
+            padding: unset;
+        }
+       .menu ul{
+        text-align: center;
+        padding: unset;
+       }
+       .introduction {
+
+        margin:unset;
+        
+    }
+    .welcome{
+        font-size: 1rem;
+    }
+    .first-intro button{
+        font-size: 12px;
+        width: 130px;
+    
+    }
+    .about-me{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 10%;    
+    }
+
+    .about-develop {
+        display: grid;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-items: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+    .about-develop{
+        width: 90%;
+    }
+    .available-service{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-items: center;
+        row-gap: 2rem;
+    }
+    .port-img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .small-foot p{
+        width: 80%;
+        margin: auto;
+    }
+    .con-form i{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:600px)
+{   
+        nav{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+        }
+        .logo h1{
+            text-align: center;
+            padding: unset;
+        }
+       .menu ul{
+        text-align: center;
+        padding: unset;
+       }
+       .introduction {
+
+        margin:unset;
+        
+    }
+    .welcome{
+        font-size: 1rem;
+    }
+    .first-intro button{
+        font-size: 12px;
+        width: 130px;
+    
+    }
+    .about-me{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 10%;    
+    }
+
+    .about-develop {
+        display: grid;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-items: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+    .about-develop{
+        width: 90%;
+    }
+    .available-service{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-items: center;
+        row-gap: 2rem;
+    }
+    .port-img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .small-foot p{
+        width: 80%;
+        margin: auto;
+    }
+    .con-form i{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:600px)
+{   
+        nav{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+        }
+        .logo h1{
+            text-align: center;
+            padding: unset;
+        }
+       .menu ul{
+        text-align: center;
+        padding: unset;
+       }
+       .introduction {
+
+        margin:unset;
+        
+    }
+    .welcome{
+        font-size: 1rem;
+    }
+    .first-intro button{
+        font-size: 12px;
+        width: 130px;
+    
+    }
+    .about-me{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 10%;    
+    }
+
+    .about-develop {
+        display: grid;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-items: center;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+    .about-develop{
+        width: 90%;
+    }
+    .available-service{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-items: center;
+        row-gap: 2rem;
+    }
+    .port-img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .small-foot p{
+        width: 80%;
+        margin: auto;
+    }
+    .con-form i{
+        font-size: 1rem;
+    }
+}
+
+
+
+
