@@ -13,15 +13,15 @@ Welcome to my personal portfolio! Here you will find a curated collection of my 
 
 ## About Me
 
-I am [Your Name], a [Your Title/Role] with a passion for [Your Passion or Specialty]. My journey in [Your Field/Industry] began [X] years ago, and since then, I have been dedicated to honing my skills and delivering exceptional results.
+I am Deekshitha V, a Web Developer with a passion for coding. My journey in Web Development began 3 years ago, and since then, I have been dedicated to honing my skills and delivering exceptional results.
 
 ## Projects
 
 Here are some of the notable projects I have worked on:
 
-- **[Project Name 1](#)**: A brief description of this project, highlighting key features and technologies used.
-- **[Project Name 2](#)**: A brief description of this project, including its impact and the challenges overcome.
-- **[Project Name 3](#)**: A brief description of this project, focusing on the results achieved and the skills demonstrated.
+- **[Project Name 1](#)**: Logway, The online Courier Management.
+- **[Project Name 2](#)**: Three T, A tic-tac-toe game with ai.
+- **[Project Name 3](#)**: Trooms, A room booking platform.
 
 Feel free to explore these projects in detail on the [Projects Page](https://deeksha27deekshitha.github.io/portfolio/portfolio/index.html).
 
@@ -29,17 +29,17 @@ Feel free to explore these projects in detail on the [Projects Page](https://dee
 
 My skill set includes:
 
-- **Technical Skills**: [List your key technical skills, such as programming languages, tools, or frameworks]
-- **Soft Skills**: [List your important soft skills, such as communication, teamwork, etc.]
-- **Certifications**: [List any relevant certifications or courses]
+- **Technical Skills**: Html,css,js,React js,django,node,mongo,express,flutter
+- **Soft Skills**: Communiation,Time Management
+- **Certifications**: AI using Python
 
 ## Contact
 
 I would love to hear from you! If you have any questions, opportunities, or just want to connect, please feel free to reach out:
 
 - **Email**: [Your Email Address]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
+- **LinkedIn**: [[Your LinkedIn Profile]](https://www.linkedin.com/in/deekshitha-v-b10a08276/)
+- **GitHub**: https://github.com/Deeksha27Deekshitha
 
 Thank you for visiting my portfolio. I hope you find it inspiring and informative!
 
