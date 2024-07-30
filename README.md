@@ -1,6 +1,6 @@
 # Welcome to Deeksha's Portfolio
 
-![Portfolio Image]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.swic.edu%2Fportfolio-day%2F&psig=AOvVaw2B6GqNskwIkxAq6fMDEpIc&ust=1722398476788000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIC0gL3wzYcDFQAAAAAdAAAAABAE](https://www.swic.edu/wp-content/uploads/2021/05/portfolio-1536x918.png))
+![Portfolio Image](https://www.swic.edu/wp-content/uploads/2021/05/portfolio-1536x918.png)
 
 Welcome to my personal portfolio! Here you will find a curated collection of my work, showcasing my skills, projects, and achievements. I am passionate about [Your Field/Industry] and committed to continuous learning and growth. 
 
