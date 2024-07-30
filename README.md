@@ -37,8 +37,8 @@ My skill set includes:
 
 I would love to hear from you! If you have any questions, opportunities, or just want to connect, please feel free to reach out:
 
-- **Email**: [Your Email Address]
-- **LinkedIn**: [[Your LinkedIn Profile]](https://www.linkedin.com/in/deekshitha-v-b10a08276/)
+- **Email**: deekshapoojary27a@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/deekshitha-v-b10a08276/
 - **GitHub**: https://github.com/Deeksha27Deekshitha
 
 Thank you for visiting my portfolio. I hope you find it inspiring and informative!
